@@ -6,8 +6,6 @@ genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
 
-
-
 def classify_file_sample(sample_text, sector_hint="Unknown"):
     prompt = f"""
     Analyze this file sample from the {sector_hint} sector:
