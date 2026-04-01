@@ -2,6 +2,7 @@ import datetime
 import pyodbc
 from config import AZURE_SQL
 
+
 def get_conn():
     conn_str = (
         f"DRIVER={AZURE_SQL['driver']};"
