@@ -8,6 +8,7 @@ using namespace std;
 //              Function to overwrites files add zero
 bool overwriteFile(const string& path, int passes) {
     
+    
     fstream file(path, ios::in | ios::out | ios::binary);
     if (!file.is_open()) {
         cerr << "Error: Could not open file " << path << endl;
