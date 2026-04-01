@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import subprocess
 
+
 #    custom modules
 from ai_client import classify_file_sample
 from db_client import ensure_table, insert_log
