@@ -2,8 +2,6 @@ import os
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 
 
-
-
 AZURE_SQL = {
     "server": "your-server.database.windows.net",
     "database": "your-db-name",
